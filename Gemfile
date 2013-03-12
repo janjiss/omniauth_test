@@ -25,6 +25,7 @@ gem 'omniauth'
 gem 'omniauth-bodymedia', :path => "~/Jiff3/gems/omniauth-bodymedia"
 gem 'omniauth-fitbit'
 gem "omniauth-mapmyfitness", :git => "git@github.com:yeeland/omniauth-mapmyfitness.git"
+gem "omniauth-mhealth", "~> 0.0.3"
 gem 'jquery-rails'
 gem 'pry'
 gem 'webmock', :require => false

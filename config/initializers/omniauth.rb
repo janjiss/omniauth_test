@@ -6,4 +6,5 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :bodymedia, BODYMEDIA_CONSUMER_KEY, BODYMEDIA_CONSUMER_SECRET
   provider :fitbit, FITBIT_CONSUMER_KEY, FITBIT_CONSUMER_SECRET
   provider :mapmyfitness, "1c2ed6c708521c50fe22eca5d3be5a1c", "835873495fa396feb1f383cc1deb947e0x50x938f1"
+  provider :mhealth, "testproduct","UBqfL5Nw2Pq86PeYMHXMuTpuDEOlCwj78ArqvVmT"
 end
